@@ -14,21 +14,21 @@ while True:
     if produto == 'sair':
         break
 
-    # Verifica se o produto está disponível no estoque
+
     if produto not in estoque:
         print("Produto não encontrado no estoque.")
     else:
         quantidade = int(input(f"Digite a quantidade de {produto} vendida: "))
 
-        # Verifica se a quantidade solicitada está disponível no estoque
+
         if quantidade > estoque[produto]:
             print("Quantidade solicitada não disponível no estoque.")
         else:
-            
-            # Realiza a baixa no estoque
+
+
             estoque[produto] -= quantidade
             print(f"Venda realizada: {quantidade} unidades de {produto} foram vendidas.")
 
-# Exibe o estoque final após as vendas
+
 print("\nEstoque final após as vendas:")
 print(estoque)

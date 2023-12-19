@@ -1,4 +1,3 @@
-# Lista de dicionários contendo informações dos clientes (nomes e idades)
 clientes = [
     {"nome": "Fulano", "idade": 25},
     {"nome": "Fulana", "idade": 17},
