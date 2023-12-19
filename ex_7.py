@@ -1,4 +1,3 @@
-
 alunos = {}
 
 quantidade_alunos = int(input("Quantos alunos deseja registrar? "))
